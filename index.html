@@ -2,7 +2,19 @@
 <html>
     <head>
         <title>Home &#8211; Un fiume di musica</title>
-        <meta charset="utf-8"> 
+        <meta charset="utf-8">
+        <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+      if (screenWidth < 768) {
+        document.body.classList.add('mobile-layout');
+      } else {
+        // Codice da eseguire se la larghezza dello schermo è maggiore o uguale a 768px (ad esempio, desktop)
+        // Mantieni il layout o il contenuto predefinito per schermi più grandi
+        document.body.classList.add('desktop-layout');
+      }
+    });
+  </script>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
