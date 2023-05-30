@@ -17,7 +17,7 @@ body {
 /* stili per l'header */
 header {
   margin-top: -50px;
-  background-color: #2C5C98;
+  background-color: #025B9C;
   color: #fff;    
 }
 
@@ -37,13 +37,13 @@ header {
 .nav-link {
     justify-content: center;
     font-weight: 600;
-    color: #2C5C98 !important;
+    color: #025B9C !important;
     transition: color 0.3s ease-in-out;
 }
 
 .nav-link:hover {
     color: #fcb23b !important;
-	  background-color: #2C5C98;
+	  background-color: #025B9C;
 	  border-radius: 10px 10px 10px 10px;
 }
 
@@ -159,39 +159,39 @@ header {
 }
   /* stili per la section card */
 
-  .card {
-    height: 100%;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+.card {
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
    
-  }
+}
   
  
-  .card i {
+.card i {
     color: #ff9900;
-  }
+}
   
-  .card-title {
-    font-weight: bold;
-    margin-bottom: 1rem;
-  }
+.card-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
   
-  .card-text {
-    font-size: 0.9rem;
-    margin-bottom: 0;
-  }
+.card-text {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
   
-  .card-body {
-    margin: top 40px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-  }
+.card-body {
+  margin: top 40px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
   
-  .card-deck .card {
-    margin-bottom: 10rem !important ;
-  }
+.card-deck .card {
+  margin-bottom: 10rem !important ;
+}
   
   @media (max-width: 767px) {
     .card-deck .card {
@@ -219,16 +219,16 @@ header {
     }
   }
   
-  .card-body {
-    display: flex;
+.card-body {
+   display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-bottom: 30px;
-  }
+     justify-content: center;
+     margin-bottom: 30px;
+}
 
 .card h5 {
   text-align: center;
-  color: #2C5C98;
+  color: #025B9C;
 }
 
 .card-text{
@@ -244,7 +244,7 @@ header {
 
 #mounth{
   background-color: #FFA500;
-  color: #1c484f;
+  color: #025B9C;
   font-weight: 700;
   padding: 10px;
   margin-bottom: 10px;
@@ -255,7 +255,7 @@ header {
 /* stili per il footer */
 
 footer {
-    background-color: #2C5C98;
+    background-color: #025B9C;
     color: #fff;
     padding: 20px 0;
 }
@@ -316,7 +316,7 @@ a:active {
 }
 
   
-  
+
   /* stili per documentazione */
 
   h1, h2, h3, h4, h5, h6 {
@@ -426,7 +426,7 @@ p {
 
 .contact-info li i {
   margin-right: 10px;
-  color: #2C5C98;
+  color: #025B9C;
 }
 
 
